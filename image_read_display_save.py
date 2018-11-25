@@ -12,7 +12,7 @@ from matplotlib import pyplot as plt
 #     if k == ord('s'):
 #         cv2.imwrite("img2.png",img)
 #         cv2.destroyAllWindows()
-img = cv2.imread("img1.jpg",0)
+img = cv2.imread("lena.jpg",0)
 plt.imshow(img, cmap = 'gray', interpolation = 'bicubic')
 plt.xticks([]),plt.yticks([])  #to hide tick values on X and Y axis
 plt.show()
